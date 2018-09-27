@@ -14,14 +14,15 @@ public class BankAccount
 	{
 		name = inputName;
 		accNum = inputAccNum;
+		balance = 0;
 	}
 	
-	public void deposit(int amount)
+	public void deposit(double amount)
 	{
 		balance += amount;
 	}
 	
-	public void withdraw(int amount)
+	public void withdraw(double amount)
 	{
 		balance -= amount;
 	}
